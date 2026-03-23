@@ -1541,22 +1541,15 @@ post '/trending/:type' => [type => qr/\w+/] => sub {
           $MODEL->resultset('Content')->search({id => $self->param('id')})
           ->single;
 
-        given ($self->param('type')) {
-
-            when ('views') {
-
-                $content->update({views => $content->views + 1});
-            }
-
-            when ('clicks') {
-
-                $content->update({clicks => $content->clicks + 1});
-            }
-
-            default {
-
-                $content->close;
-            }
+        my $type = $self->param('type');
+        if ($type eq 'views') {
+            $content->update({views => $content->views + 1});
+        }
+        elsif ($type eq 'clicks') {
+            $content->update({clicks => $content->clicks + 1});
+        }
+        else {
+            $content->close;
         }
     }
 
@@ -1836,5 +1829,5 @@ sub order_by_trending {
 app->log->path(app->config->{hypnotoad}->{log_file})
   if app->mode('production');
 
-app->secret('Something sticky in the basement.');
+app->secrets(['Something sticky in the basement.']);
 app->start();

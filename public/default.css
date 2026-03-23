@@ -1370,7 +1370,7 @@ body {
 	border: 0px none !important; 
 }
 .soria tr.dojoxCal-MY-btns {
-	background:   url('http://ajax.googleapis.com/ajax/libs/dojo/1.6.0/dijit/themes/soria/images/tabBottomHoverC.gif') repeat-x scroll 0px -21px;
+    background:   url('https://ajax.googleapis.com/ajax/libs/dojo/1.6.1/dijit/themes/soria/images/tabBottomHoverC.gif') repeat-x scroll 0px -21px;
 }
 .dojoxCalendar .noPointer, .dojoxCalendar .noPointer * {
 	cursor: auto;
@@ -1392,7 +1392,7 @@ body {
 }
 
 .soria .dojoxCalendarHeader {
-	background: #BED7F0 url('http://ajax.googleapis.com/ajax/libs/dojo/1.6.0/dijit/themes/soria/images/titleBar.png') repeat-x scroll center top;
+    background: #BED7F0 url('https://ajax.googleapis.com/ajax/libs/dojo/1.6.1/dijit/themes/soria/images/titleBar.png') repeat-x scroll center top;
 }
 .dojoxCalendarDecrease, .dojoxCalendarIncrease {
 	height: 15px;
@@ -1400,12 +1400,12 @@ body {
 	cursor: pointer;
 }
 .dojoxCalendarDecrease {
-	background: transparent url('http://ajax.googleapis.com/ajax/libs/dojo/1.6.0/dijit/themes/nihilo/images/spriteRoundedIconsSmall.png') no-repeat scroll left top;
+    background: transparent url('https://ajax.googleapis.com/ajax/libs/dojo/1.6.1/dijit/themes/nihilo/images/spriteRoundedIconsSmall.png') no-repeat scroll left top;
 	float: left;
         margin-left: 25px;
 }
 .dojoxCalendarIncrease {
-	background: transparent url('http://ajax.googleapis.com/ajax/libs/dojo/1.6.0/dijit/themes/nihilo/images/spriteRoundedIconsSmall.png') no-repeat scroll -30px top;
+    background: transparent url('https://ajax.googleapis.com/ajax/libs/dojo/1.6.1/dijit/themes/nihilo/images/spriteRoundedIconsSmall.png') no-repeat scroll -30px top;
 	float: right;
         margin-right: 25px;
 }
@@ -1435,7 +1435,7 @@ body {
 .dojoxCalendar .navToPanel .dojoxCalendarYearHeader,
 .dojoxCalendar .navToPanel .dojoxCalendarMonthHeader  {
 	padding-right: 15px;
-	background: url('http://ajax.googleapis.com/ajax/libs/dojo/1.6.0/dijit/themes/tundra/images/comboArrowDown.gif') right no-repeat;
+    background: url('https://ajax.googleapis.com/ajax/libs/dojo/1.6.1/dijit/themes/tundra/images/comboArrowDown.gif') right no-repeat;
 
 }
 .dojoxCalendar .dijitCalendarDateLabel {
@@ -1478,7 +1478,7 @@ body {
 .soria .dojoxCalendar .dojoxCalendarFooter {
 	border-top: 0px none;
 	padding-top: 5px;
-	background: white url('http://ajax.googleapis.com/ajax/libs/dojo/1.6.0/dijit/themes/soria/images/titleBar.png') repeat-x scroll center top
+    background: white url('https://ajax.googleapis.com/ajax/libs/dojo/1.6.1/dijit/themes/soria/images/titleBar.png') repeat-x scroll center top
 }
 .dojoxCalendar .dojoxCalendarMonthLabel {
 	border: 1px solid #e6e2e3;
